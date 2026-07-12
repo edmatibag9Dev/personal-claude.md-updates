@@ -1,0 +1,21 @@
+# personal-claude.md-updates
+
+> Version-controlled home for the global Claude Code / Cowork instruction files:
+> the CLAUDE.md loaded at the start of every session, plus the canonical
+> CONTRIBUTING.md and AGENTS.md standards that agents auto-deploy into any
+> repo that is missing them.
+
+## Start here
+- [AGENTS.md](AGENTS.md): canonical agent guide — compact repository behavior rules, README trigger table, Contents API mechanics.
+- [README.md](README.md): human quickstart — setup, symlinking, and how auto-deployment works.
+- [CONTRIBUTING.md](CONTRIBUTING.md): full commit-message format, 9-section README template, and pre-push checklist.
+
+## Configuration
+- [CLAUDE.md](CLAUDE.md): global session instruction file — routing rules for dispatch, capture triggers, memory writes, and GitHub repo tasks.
+
+## Key rules
+- CLAUDE.md here mirrors the live global instructions; edit the live copy, then push the update with a full commit body.
+- CONTRIBUTING.md and AGENTS.md are the canonical templates — agents push them into any repo that lacks them before doing other work.
+- Every feat/fix commit needs a multi-bullet body; one-liner commit messages are not acceptable.
+- README.md must be kept current (all 9 sections) on every feat, fix, or data commit.
+- No tokens or secrets are ever committed; API pushes use a locally stored token with repo scope.
