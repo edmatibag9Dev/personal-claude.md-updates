@@ -4,6 +4,19 @@ This file governs how AI agents (Claude Code, Cowork, or any LLM-based tool) mus
 
 ---
 
+## File map
+
+| Path | Committed? | Purpose |
+|---|---|---|
+| `AGENTS.md` | yes | This file — compact agent-specific behavior rules, the README trigger table, and GitHub Contents API push mechanics. Canonical entry point read before acting. |
+| `CHANGELOG.md` | yes | Keep a Changelog-formatted history of notable changes to the repo (newest first); documents the llms.txt + CHANGELOG standardization and the initial repository seeding. |
+| `CLAUDE.md` | yes | Version-controlled mirror of the global `~/.claude/CLAUDE.md` loaded at the start of every Claude Code / Cowork session — routing rules for dispatch uploads, Open Brain capture triggers, memory writes, Day One journals, and GitHub repo tasks. |
+| `CONTRIBUTING.md` | yes | Full repository documentation and commit standards for humans and AI agents: commit message format, the 9-section README template, GitHub Contents API push mechanics, and pre-push checklist. Takes precedence over AGENTS.md on any conflict. |
+| `README.md` | yes | Human-facing project doc — overview, setup/symlink usage, auto-deployment explanation, and file descriptions. Updated on every feat/fix/data commit. |
+| `llms.txt` | yes | Machine-readable index of the docs — points agents and tools at AGENTS.md, README.md, CONTRIBUTING.md, and CLAUDE.md with one-line summaries plus the key invariants to respect. |
+
+---
+
 ## Primary Rule
 
 **Every push must include a detailed commit message and a fully updated README.md.**
