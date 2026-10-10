@@ -61,7 +61,7 @@ Other journals (not part of the capture workflow unless specified):
 ## About Ed
 
 - **Name:** Ed Matibag
-- **Email:** edmatibag9@gmail.com
+- **Email:** <OWNER_EMAIL>
 - **Workspace folder:** ~/Documents/Claude (always select this as the Cowork folder)
 
 ---

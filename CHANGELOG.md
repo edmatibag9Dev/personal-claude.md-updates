@@ -4,6 +4,11 @@ All notable changes to personal-claude.md-updates are documented here.
 Format follows [Keep a Changelog](https://keepachangelog.com/); dates are America/Los_Angeles.
 Gitignored data/output files are never committed.
 
+## [2026-10-10] — Remove owner email
+
+### Removed
+- The owner's email address from `CLAUDE.md` (About section), replaced with the `<OWNER_EMAIL>` placeholder. This repo is public. The address remains in earlier commits.
+
 ## [2026-07-12] — Repo standardization: llms.txt + CHANGELOG.md
 
 ### Added
